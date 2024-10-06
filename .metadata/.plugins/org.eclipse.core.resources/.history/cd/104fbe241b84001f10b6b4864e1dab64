@@ -1,0 +1,29 @@
+package Hooks;
+
+public class AppHook extends Base {
+
+@Before
+public void setUpScenario(Scenario scenario) {
+message = scenario;
+}
+
+@After()
+public void takeScreenshot(Scenario scenario) {
+
+boolean f = scenario.isFailed();
+System.out.println("failed" + f);
+
+if (scenario.isFailed()) {
+
+TakesScreenshot ts = (TakesScreenshot) driver;
+byte[] screenshotAs = ts.getScreenshotAs(OutputType.BYTES);
+scenario.attach(screenshotAs, "image/png", "Failed Screenshot");
+
+}
+/*
+* else { TakesScreenshot ts = (TakesScreenshot)driver; byte[] screenshotAs =
+* ts.getScreenshotAs(OutputType.BYTES); scenario.attach(screenshotAs,
+* "image/png", "Passed Screenshot"); }
+*/
+}
+}
