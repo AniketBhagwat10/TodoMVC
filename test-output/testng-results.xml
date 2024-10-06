@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-07T01:43:30 IST" name="Default suite" finished-at="2024-10-07T01:44:40 IST" duration-ms="69144">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@117159c0]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2024-10-07T01:43:30 IST" name="Default test" finished-at="2024-10-07T01:44:40 IST" duration-ms="69144">
+      <class name="testRunner.TestRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:testRunner.TestRunner@117159c0]" started-at="2024-10-07T01:43:31 IST" name="setUpClass" finished-at="2024-10-07T01:43:31 IST" duration-ms="635" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@117159c0]" started-at="2024-10-07T01:43:31 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-10-07T01:43:36 IST" duration-ms="4473" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Adding a duplicate Todo"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["TodoMVC Application with Negative Scenario"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@117159c0]" started-at="2024-10-07T01:43:36 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-10-07T01:43:38 IST" duration-ms="2023" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check todo input field with special character and number"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["TodoMVC Application with Negative Scenario"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@117159c0]" started-at="2024-10-07T01:43:38 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-10-07T01:43:40 IST" duration-ms="2173" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check todo input field accpet any number of characters"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["TodoMVC Application with Negative Scenario"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@117159c0]" started-at="2024-10-07T01:43:40 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-10-07T01:44:02 IST" duration-ms="21772" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add an empty string"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["TodoMVC Application with Negative Scenario"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@117159c0]" started-at="2024-10-07T01:44:02 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-10-07T01:44:04 IST" duration-ms="2363" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Adding a new todo"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["TodoMVC Application Positive Scenario"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@117159c0]" started-at="2024-10-07T01:44:04 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-10-07T01:44:06 IST" duration-ms="2372" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Marking a todo as completed"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["TodoMVC Application Positive Scenario"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@117159c0]" started-at="2024-10-07T01:44:06 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-10-07T01:44:29 IST" duration-ms="22506" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Deleting a todo"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["TodoMVC Application Positive Scenario"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@117159c0]" started-at="2024-10-07T01:44:29 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-10-07T01:44:32 IST" duration-ms="2933" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Adding multiple todo list"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["TodoMVC Application Positive Scenario"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@117159c0]" started-at="2024-10-07T01:44:32 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-10-07T01:44:34 IST" duration-ms="2593" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Completed button functionality"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["TodoMVC Application Positive Scenario"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testRunner.TestRunner@117159c0]" started-at="2024-10-07T01:44:34 IST" name="tearDownClass" finished-at="2024-10-07T01:44:40 IST" duration-ms="5259" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- testRunner.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
